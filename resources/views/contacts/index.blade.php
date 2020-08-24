@@ -23,6 +23,11 @@
 <div class="editbotom">
 <button class="button-with-arrow " style="    padding: 8px 15px 8px 15px; font-size: 17px;margin-top: 15px;"><a href="{{ route('contacts.create') }}">Crear Registro</a></button>
 </div>
+
+          
+          <div class="paginate">
+           {{$contacts->links()}}
+          </div>
                    </div>
                </div>
             </div>
